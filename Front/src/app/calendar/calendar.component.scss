@@ -1,0 +1,89 @@
+.sidenav {
+  height: 100vh; /* Ajusta a altura da barra lateral */
+  padding-top: 20px;
+}
+
+.nav-link {
+  margin: 5px 0;
+}
+
+.container-fluid .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container-fluid .row > .col-md-9, .container-fluid .row > .col-lg-10 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.bg-danger {
+  position: relative;
+}
+
+.bg-danger::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #dc3545;
+}
+
+.ngb-dp-day {
+  position: relative;
+}
+
+.ngb-dp-day span {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background-color: #e7f1ff; /* Adiciona um fundo azul claro */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  margin: 2px; /* Pequeno espaçamento ao redor dos números */
+}
+
+.ngb-dp-day.selected span {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+}
+
+.ngb-dp-day.selected::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.content-box {
+  background-color: #f8f9fa; /* Cor de fundo limpa e clara */
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 15px; /* Espaçamento interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
